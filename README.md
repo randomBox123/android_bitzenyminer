@@ -26,9 +26,9 @@ MacOS X / Windows
 $ node -v
 v8.9.4
 
-$ sudo npm install -g ionic
 $ git clone https://github.com/xshsaku/android_bitzenyminer.git
-$ cd poolViewer
+$ cd android_bitzenyminer
+$ sudo npm install -g ionic
 $ npm install
 $ ionic serve #ブラウザで表示確認
 
