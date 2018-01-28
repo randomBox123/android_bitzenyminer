@@ -1,0 +1,16 @@
+{
+  "name": "bitzeny",
+  "app_id": "",
+  "type": "ionic1",
+  "integrations": {
+    "gulp": {},
+    "gulpStartupTasks": ["sass", "watch"],
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

@@ -1,0 +1,62 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss/ionic.scss";
+
+body {
+	background-color:#000;
+}
+
+.riyou {
+	padding: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #fff;
+}
+
+.riyou h2 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.riyou ol {
+	list-style-type: decimal;
+	padding-left: 15px;
+}
+
+.riyou ol li {
+	padding-bottom: 5px;
+}
+
+.col {
+	text-align:center;
+}
+
+#thread {
+	font-size: 24px;
+}
+
+#decrement,#increment {
+	font-size: 30px;
+}
+
+.list input {
+	padding: 5px;
+	border-bottom: 1px solid #DDD;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	width: 100%;
+}
+
+#username, #password {
+	margin: 5px;
+	border:1px solid #DDD;
+	width: 100%;
+}
+.text-center{
+	text-align: center;
+}
+
+p.credit{
+	font-size:10px;
+}

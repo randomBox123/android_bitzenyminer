@@ -1,0 +1,54 @@
+{
+  "name": "bitzeny",
+  "version": "0.0.1",
+  "description": "An Ionic project",
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0"
+  },
+  "dependencies": {
+    "@ionic-native/device-motion": "^4.5.2",
+    "@ionic-native/splash-screen": "^4.5.2",
+    "angular-chart.js": "^1.1.1",
+    "chart.js": "^2.7.1",
+    "cordova": "^8.0.0",
+    "cordova-android": "~6.4.0",
+    "cordova-ios": "~4.5.4",
+    "cordova-plugin-admobpro": "^2.29.29",
+    "cordova-plugin-browsertab": "^0.2.0",
+    "cordova-plugin-buildinfo": "^2.0.1",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-device": "^1.1.4",
+    "cordova-plugin-device-motion": "^1.2.5",
+    "cordova-plugin-extension": "^1.5.3",
+    "cordova-plugin-inappbrowser": "^2.0.1",
+    "cordova-plugin-ionic-webview": "^1.1.16",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-whitelist": "^1.3.1",
+    "gulp-sass": "^2.3.2",
+    "ionic-plugin-keyboard": "^2.2.1",
+    "ng2-adsense": "^5.1.2",
+    "ng2-charts": "^1.6.0",
+    "node-sass": "^3.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-device-motion": {},
+      "cordova-plugin-buildinfo": {},
+      "cordova-plugin-browsertab": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-compat": {},
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-admobpro": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}

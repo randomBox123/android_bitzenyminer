@@ -1,0 +1,100 @@
+<ion-view title="銭プールApp" id="page2">
+<ion-content padding="true" class="has-header">
+  <div class="riyou">
+    <h2>Bitzeny(ZNY) Miner</h2>
+    <ol>
+      <li>Bitzenyのwalletアドレスを入力(Enter your bitzeny address)</li>
+      <li>スタートボタンを押下(Enter "start ZNY Mining button")</li>
+    </ol>
+  </div>
+  <div class="row">
+    <div class="col col-50">
+      <div id="meter" class="alert alert-dark" role="alert">
+        <h4>Total HASHES/S</h4>
+        Worker 1: <span id="meter1">-.-</span><br>
+        Worker 2: <span id="meter2">-.-</span><br>
+        Worker 3: <span id="meter3">-.-</span><br>
+        Worker 4: <span id="meter4">-.-</span>
+      </div>
+    </div>
+    <div class="col col-50">
+      <h4>THREADS</h4>
+      <span id="thread">1</span>
+      <span id="increment">+</span>/<span id="decrement">-</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="item item-divider">
+      HASHES/s Graph
+    </div>
+    <div class="item item-text-wrap">
+      <canvas id="line" class="chart chart-line" chart-data="data" chart-options="options" chart-labels="labels" chart-legend="true" chart-series="series" chart-dataset-override="datasetOverride" chart-click="onClick" chart-options="{showTooltips: true}"></canvas>
+    </div> 
+  </div>
+  <div class="row">
+    <div class="col">
+    <form id="page2-form1" class="list">
+      Enter your Bitzeny User/Workername and password.
+      <label class="item-input-password">
+        <input type="text" value="demo.demo" type="text" name="username" id="username" placeholder="Username" />
+      </label>
+      <label class="item-input-password">
+        <input type="text" value="password" type="text" name="password" id="password" placeholder="Password" />
+      </label>
+
+      <div class="button-bar">
+        <button id="start" type="button" class="button button-positive button-block button-small">
+          Start ZNY Mining
+        </button>
+      </div>
+
+      <div class="button-bar">
+        <button id="yay" type="button" class="button button-positive button-block button-small" style="">
+            OK <span id="yaycount" class="badge badge-light">0</span>
+        </button>
+        <button id="boo" type="button" class="button button-assertive button-block button-small" style="">
+            NG <span id="boocount" class="badge badge-light">0</span>
+        </button>
+      </div>
+      <div id="connected" class="status alert alert-info button-small" role="alert" style="display: none">
+          Connected
+      </div>
+      <div id="disconnected" class="status alert alert-danger button-small" role="alert" style="display: none">
+          Disconnected
+      </div>
+      <div id="message" class="status alert alert-info button-small" role="alert" style="">
+          Got message
+      </div>
+      <div id="error" class="status alert alert-danger button-small" role="alert" style="display: none">
+          Error
+      </div>
+    </form>
+    </div>
+  </div>
+  <div class="button-bar">
+    <button id="rare_ur" type="button" class="button button-positive button-block button-small" style="display: none">
+        UR <span id="rare_ur_count" class="badge badge-light">0</span>
+    </button>
+    <button id="rare_sr" type="button" class="button button-positive button-block button-small" style="display: none">
+        SR <span id="rare_sr_count" class="badge badge-light">0</span>
+    </button>
+    <button id="rare_r" type="button" class="button button-positive button-block button-small" style="display: none">
+        R <span id="rare_r_count" class="badge badge-light">0</span>
+    </button>
+    <button id="rare_nr" type="button" class="button button-positive button-block button-small" style="display: none">
+        NR <span id="rare_nr_count" class="badge badge-light">0</span>
+    </button>
+    <button id="rare_n" type="button" class="button button-positive button-block button-small" style="display: none">
+        N <span id="rare_n_count" class="badge badge-light">0</span>
+    </button>
+  </div>
+  <a href="https://zny.coiner.site/" target="_blank">
+    <button class="button button-positive button-block button-small">
+    New on ZNY mining? Create Bitzeny Account
+    </button>
+  </a>
+  <br><br>
+  <br><br>
+  <br><br>
+</ion-content>
+</ion-view>
